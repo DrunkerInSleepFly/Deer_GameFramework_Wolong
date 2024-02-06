@@ -1,6 +1,0 @@
-[submodule "Assets/Deer/Scripts/Hotfix/HotfixICallTheShots"]
-	path = Assets/Deer/Scripts/Hotfix/HotfixICallTheShots
-	url = http://gitlab.drunker.cc/Drunker/ICallTheShots.git
-[submodule "Assets/Deer/AssetsHotfix/ICallTheShots"]
-	path = Assets/Deer/AssetsHotfix/ICallTheShots
-	url = http://gitlab.drunker.cc/Drunker/ICallTheShotsRes.git
