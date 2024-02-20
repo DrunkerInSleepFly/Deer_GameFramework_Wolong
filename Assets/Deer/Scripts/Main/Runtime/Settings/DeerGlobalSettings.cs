@@ -106,6 +106,28 @@ public class DeerGlobalSettings : ScriptableObject
     [Tooltip("版本")]
     private string m_ScriptVersion = "0.1";
     public string ScriptVersion { get { return m_ScriptVersion; } }
+
+    [SerializeField]
+    [Tooltip("渠道")]
+    private string m_Channel = "halo_google";
+    public string Channel { get { return m_Channel; } }
+    [SerializeField]
+    [Tooltip("使用服务器")]
+    private bool m_UseServer = false;
+    public bool UseServer { get => m_UseServer; set => m_UseServer = value; }
+    [SerializeField] private ServerUseEnum m_ServerUse = ServerUseEnum.LocalServer;
+    public ServerUseEnum ServerUse { get { return m_ServerUse; } }
+
+    [SerializeField]
+    private string m_LocalServerVersionPath = "";
+    public string LocalServerVersionPath { get => m_LocalServerVersionPath; }
+    [SerializeField]
+    private string m_TestServerVersionPath = "";
+    public string TestServerVersionPath { get => m_TestServerVersionPath; }
+    [SerializeField]
+    private string m_FormalServerVersionPath = "";
+    public string FormalServerVersionPath { get => m_FormalServerVersionPath; }
+
     [SerializeField] private AppStageEnum m_AppStage = AppStageEnum.Debug;
     public AppStageEnum AppStage { get { return m_AppStage; } }
     [Header("Font")]

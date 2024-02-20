@@ -9,6 +9,10 @@
 public enum AppStageEnum
 {
     /// <summary>
+    /// 服务器相关信息极可能输出
+    /// </summary>
+    CheckServer = 0,
+    /// <summary>
     /// 测试版本
     /// </summary>
     Debug = 1,
@@ -28,4 +32,10 @@ public enum AppStageEnum
     /// 发布版本
     /// </summary>
     Release = 5
+}
+public enum ServerUseEnum
+{
+    LocalServer = 1,
+    TestServer = 2,
+    FormalServer = 3
 }
