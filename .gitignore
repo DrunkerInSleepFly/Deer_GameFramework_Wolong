@@ -33,3 +33,6 @@ LubanTools/setup/proto
 LubanTools/GenerateDatas
 BuildPackageIOS
 DeerExample
+Assets/Deer/Scripts/Hotfix/HotfixAGameExample/
+Assets/Deer/Scripts/Hotfix/HotfixADeerExample/
+Assets/Deer/Scripts/Hotfix/HotfixDrunker/
