@@ -26,7 +26,7 @@ namespace HotfixBusiness.UI
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);
 			 GetBindComponents(gameObject);
-
+			
 /*--------------------Auto generate start button listener.Do not modify!--------------------*/
 			m_Btn_DeerExample.onClick.AddListener(Btn_DeerExampleEvent);
 			m_Btn_DeerGame.onClick.AddListener(Btn_DeerGameEvent);

@@ -60,7 +60,7 @@ public static partial class Constant
         /// 材质球优先级
         /// </summary>
         public const int Material = 95;
-        //public const int DataTableAsset = 100;
+        public const int DataTableAsset = 100;
 
 
 

@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BindDatas: []
   m_ClassName: UIForm
-  m_Namespace: HotfixBusiness.UI
-  m_ComCodePath: Deer/Scripts/HotFix/HotFixBusiness/UI/BindComponents
-  m_MountCodePath: Deer/Scripts/HotFix/HotFixBusiness/UI
+  m_Namespace: Hotfix.Game.UI
+  m_ComCodePath: Deer/Scripts/Hotfix/HotfixICallTheShots/Business/UI/BindComponents
+  m_MountCodePath: Deer/Scripts/Hotfix/HotfixICallTheShots/Business/UI
   m_BindComs: []

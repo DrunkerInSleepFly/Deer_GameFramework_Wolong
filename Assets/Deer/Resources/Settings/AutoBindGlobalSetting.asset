@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 089caf30d869f954eb91eb065677f71c, type: 3}
   m_Name: AutoBindGlobalSetting
   m_EditorClassIdentifier: 
-  m_Namespace: HotfixBusiness.UI
-  m_ComCodePath: Deer/Scripts/HotFix/HotFixBusiness/UI/BindComponents
-  m_MountCodePath: Deer/Scripts/HotFix/HotFixBusiness/UI
+  m_Namespace: Hotfix.Game.UI
+  m_ComCodePath: Deer/Scripts/Hotfix/HotfixICallTheShots/Business/UI/BindComponents
+  m_MountCodePath: Deer/Scripts/Hotfix/HotfixICallTheShots/Business/UI
   m_MountScriptListAssemblys:
   - Main.Runtime
   - HotfixBusiness
   - HotfixADeerExample
   - HotfixAGameExample
+  - HotfixDrunkerBusiness
+  - HotfixMyGame.Business
   m_RulePrefixes:
   - Prefixe: Trans
     FullName: Transform

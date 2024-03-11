@@ -15,17 +15,25 @@ MonoBehaviour:
   m_UseDeerExample: 0
   m_ScriptAuthor: AlanDu
   m_ScriptVersion: 0.1
-  m_AppStage: 1
+  m_Channel: halo_google
+  m_UseServer: 1
+  m_ServerUse: 1
+  m_LocalServerVersionPath: http://192.168.1.101:9621/api2/
+  m_TestServerVersionPath: http://8.140.192.137:9621/api2/
+  m_FormalServerVersionPath: http://8.140.192.137:9621/api2/
+  m_AppStage: 0
   m_DefaultFont: wryhSDF
   BaseAssetsRootName: BaseAssets
   m_ResourcesArea:
-    m_ResAdminType: 
-    m_ResAdminCode: 
+    m_ResAdminType: Default
+    m_ResAdminCode: 0
     m_WhetherCopyResToCommitPath: 1
     m_CleanCommitPathRes: 1
+    m_ResPlatform: 1
     m_ServerType: 2
-    m_InnerResourceSourceUrl: http://121.4.195.168:8088
-    m_FormalResourceSourceUrl: http://121.4.195.168:8088
+    m_InnerResourceSourceUrl: http://192.168.1.101:8070/public/Version/td/{0}/Version.txt
+    m_ExtraResourceSourceUrl: http://8.140.192.137:9721/public/Version/{0}/Android/Version.txt
+    m_FormalResourceSourceUrl: https://halogame.oss-ap-southeast-1.aliyuncs.com/td/Version/{0}/Version.txt
   m_ResourceVersionFileName: ResourceVersion.txt
   WindowsAppUrl: 
   MacOSAppUrl: 

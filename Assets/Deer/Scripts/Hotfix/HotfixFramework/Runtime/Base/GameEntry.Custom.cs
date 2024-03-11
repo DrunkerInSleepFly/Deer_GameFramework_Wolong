@@ -49,6 +49,20 @@ public partial class GameEntry
     
     public static CrossPlatformComponent CrossPlatform => _crossPlatform ??= UnityGameFramework.Runtime.GameEntry.GetComponent<CrossPlatformComponent>();
     private static CrossPlatformComponent _crossPlatform;
+
+    public static EffectsComponent Effect => _effect ??= UnityGameFramework.Runtime.GameEntry.GetComponent<EffectsComponent>();
+    private static EffectsComponent _effect;
+
+    public static DrunkerNetworkComponent DrunkerNetwork => _drunkerNetwork ??= UnityGameFramework.Runtime.GameEntry.GetComponent<DrunkerNetworkComponent>();
+    private static DrunkerNetworkComponent _drunkerNetwork;
+
+    public static PrefabsPoolComponent PrefabsPool => _prefabsPool ??= UnityGameFramework.Runtime.GameEntry.GetComponent<PrefabsPoolComponent>();
+    private static PrefabsPoolComponent _prefabsPool;
+    
+    public static ExtendLocalizationComponent ExtendLocalization => _extendLocalization ??= UnityGameFramework.Runtime.GameEntry.GetComponent<ExtendLocalizationComponent>();
+    private static ExtendLocalizationComponent _extendLocalization;
+
+ 
     /// <summary>
     /// 获取热更程序集
     /// </summary>
@@ -174,7 +188,7 @@ public partial class GameEntry
     /// </summary>
     private static void LoadCustomComponent() 
     {
-        GameEntryMain.Resource.LoadAsset("Assets/Deer/AssetsHotfix/BaseAssets/GF/Customs.prefab", new LoadAssetCallbacks(LoadAssetSuccessCallback,LoadAssetFailureCallback));
+        GameEntry.Resource.LoadAsset("Assets/Deer/AssetsHotfix/BaseAssets/GF/Customs.prefab", new LoadAssetCallbacks(LoadAssetSuccessCallback,LoadAssetFailureCallback));
     }
 
     private static void LoadAssetFailureCallback(string assetName, LoadResourceStatus status, string errorMessage, object userData)

@@ -1,0 +1,10 @@
+{
+   "u_s": 0,
+   "c_d_url":"",
+  "l_v": "0",
+  "l_u": "https://halogame.oss-ap-southeast-1.aliyuncs.com/match_magic/GFRes/LatesResUrl/",
+  "e_v": "1",
+  "e_u": "https://halogame.oss-ap-southeast-1.aliyuncs.com/match_magic/GFRes/ExamineResUrl/",
+  "i_v": "2",
+  "i_u": "https://halogame.oss-ap-southeast-1.aliyuncs.com/match_magic/GFRes/InternaResUrl/"
+}

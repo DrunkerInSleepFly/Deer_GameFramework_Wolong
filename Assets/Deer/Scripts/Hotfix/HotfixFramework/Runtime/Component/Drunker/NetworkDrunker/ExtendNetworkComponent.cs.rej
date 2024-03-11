@@ -1,0 +1,9 @@
+diff a/ExtendGameFramework/Scripts/Main/Runtime/Component/ExtendNetwork/ExtendNetworkComponent.cs b/ExtendGameFramework/Scripts/Main/Runtime/Component/ExtendNetwork/ExtendNetworkComponent.cs	(rejected hunks)
+@@ -224,6 +224,7 @@
+                 GameEntryMain.Event.Fire(this, drunkerNetworkClosedEventArgs);
+ 
+                 //��������Ȼ�޷����ӣ����³�ʼ��socket �����һ�����̶߳���ǰһ���̵߳Ĺ���
++                Debug.Log("InitSocket111111111111111111111");
+                 InitSocket();   
+                 return;
+             }  

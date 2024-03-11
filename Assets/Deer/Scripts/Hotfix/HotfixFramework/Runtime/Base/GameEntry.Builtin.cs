@@ -28,15 +28,11 @@ public partial class GameEntry
     private static DataNodeComponent _dataNode;
 
 
-    /*/// <summary>
+    /// <summary>
     /// 获取数据表组件。
     /// </summary>
-    public static DataTableComponent DataTable
-    {
-        get;
-        private set;
-    }*/
-
+    public static DataTableComponent DataTable => _dataTable ??= UnityGameFramework.Runtime.GameEntry.GetComponent<DataTableComponent>();
+    private static DataTableComponent _dataTable;
     /// <summary>
     /// 获取调试组件。
     /// </summary>

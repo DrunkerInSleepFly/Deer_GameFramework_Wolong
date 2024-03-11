@@ -7,7 +7,7 @@ public static partial class Constant
     /// <summary>
     /// 资源优先级常量
     /// </summary>
-    public static class Setting
+    public static partial class Setting
     {
         public const string Language = "Setting.Language";
         public const string QualityLevel = "Setting.QualityLevel";
