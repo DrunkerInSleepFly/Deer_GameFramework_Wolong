@@ -691,6 +691,7 @@ namespace GameFramework.Resource
                             ResourceName resourceName = i.Key;
                             ReadWriteResourceInfo resourceInfo = i.Value;
                             resources[index] = new LocalVersionList.Resource(resourceName.Name, resourceName.Variant, resourceName.Extension, (byte)resourceInfo.LoadType, resourceInfo.Length, resourceInfo.HashCode);
+                            
                             if (resourceInfo.UseFileSystem)
                             {
                                 List<int> resourceIndexes = null;

@@ -963,6 +963,7 @@ namespace UnityGameFramework.Editor.ResourceTools
                 {
                     m_BuildReport.LogInfo("Execute build event handler 'OnOutputUpdatableVersionListData' for '{0}'...", platformName);
                     m_BuildEventHandler.OnOutputUpdatableVersionListData(platform, versionListData.Path, versionListData.Length, versionListData.HashCode, versionListData.CompressedLength, versionListData.CompressedHashCode);
+                    ProcessReadOnlyVersionList(outputFullPath, platform);
                 }
             }
 

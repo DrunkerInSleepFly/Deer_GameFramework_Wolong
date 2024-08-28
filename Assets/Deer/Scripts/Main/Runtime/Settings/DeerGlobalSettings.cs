@@ -9,6 +9,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 /// <summary>
 /// 资源存放地
@@ -38,6 +39,8 @@ public class ResourcesArea
     [Tooltip("是否在构建资源的时候清理上传到服务端目录的老资源")]
     [SerializeField] private bool m_CleanCommitPathRes = true;
     public bool CleanCommitPathRes { get { return m_CleanCommitPathRes; } }
+    [SerializeField] private ResPlatform m_ResPlatform = ResPlatform.Android;
+    public ResPlatform ResPlatform { get { return m_ResPlatform; } }
     [SerializeField] private ServerTypeEnum m_ServerType = ServerTypeEnum.Intranet;
     public ServerTypeEnum ServerType { get { return m_ServerType; } }
     [Tooltip("内网地址")]
@@ -103,7 +106,7 @@ public class DeerGlobalSettings : ScriptableObject
     private string m_ScriptAuthor = "Default";
     public string ScriptAuthor { get { return m_ScriptAuthor; } }
     [SerializeField]
-    [Tooltip("版本")]
+    [Tooltip("版本2")]
     private string m_ScriptVersion = "0.1";
     public string ScriptVersion { get { return m_ScriptVersion; } }
 
@@ -111,6 +114,7 @@ public class DeerGlobalSettings : ScriptableObject
     [Tooltip("渠道")]
     private string m_Channel = "halo_google";
     public string Channel { get { return m_Channel; } }
+    
     [SerializeField]
     [Tooltip("使用服务器")]
     private bool m_UseServer = false;

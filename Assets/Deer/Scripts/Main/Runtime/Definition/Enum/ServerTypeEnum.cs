@@ -25,3 +25,8 @@ public enum ServerTypeEnum
     /// </summary>
     Formal = 3
 }
+public enum ResPlatform : int
+{
+    Android = 1,
+    IOS = 2
+}

@@ -55,6 +55,7 @@
       <Asset Guid="0a04f24070c254c4984db94c18bb2483" ResourceName="AGameExample/UI" />
       <Asset Guid="0b8b597955a2b504eabca11b09872c9c" ResourceName="AGameExample/UI" />
       <Asset Guid="0b8ddec19039a8245b8deb6222a7199b" ResourceName="AGameExample/Scenes" />
+      <Asset Guid="0c210c5b35c48d4408b1fdf6cd3f3061" ResourceName="BaseAssets/Font" />
       <Asset Guid="0c2f53eee4d58614f8e0f04273fe5ad7" ResourceName="ADeerExample/EntityResources" />
       <Asset Guid="0ca31bcb801c709439eb59c2f8496bb5" ResourceName="ADeerExample/EntityResources" />
       <Asset Guid="0d6bf45a3374f5d42b65dca0dd0dadd4" ResourceName="AGameExample/UI" />
@@ -148,6 +149,7 @@
       <Asset Guid="62f31a47eade44b4da36f17771096948" ResourceName="AGameExample/EntityResources" />
       <Asset Guid="6971f6b607ec36348875996ac5cb3f4d" ResourceName="AGameExample/EntityResources" />
       <Asset Guid="6a059a129e1575d4fb9a6b8abce19c6e" ResourceName="BaseAssets/UITemplate/UIButton" />
+      <Asset Guid="6b6dca8196fb7f24ea337485e2348f2d" ResourceName="BaseAssets/GF" />
       <Asset Guid="6bc2544cd31342c4ba1bd16489883db1" ResourceName="ADeerExample/EntityResources" />
       <Asset Guid="6f3463be3069d5947bb2374ebb58529f" ResourceName="ADeerExample/EntityResources" />
       <Asset Guid="6f3bb198973abdf47835520d6046d6d8" ResourceName="AGameExample/UI" />

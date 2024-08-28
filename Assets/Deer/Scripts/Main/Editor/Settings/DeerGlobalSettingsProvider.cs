@@ -37,6 +37,10 @@ public class DeerSettingsProvider : SettingsProvider
         EditorGUI.EndDisabledGroup();
         EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_ScriptAuthor"));
         EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_ScriptVersion"));
+        EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_UseServer"));
+        EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_LocalServerVersionPath"));
+        EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_TestServerVersionPath"));
+        EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_FormalServerVersionPath"));       
         EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_AppStage"));
         EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("m_DefaultFont"));
         EditorGUILayout.PropertyField(m_CustomSettings.FindProperty("BaseAssetsRootName"));
