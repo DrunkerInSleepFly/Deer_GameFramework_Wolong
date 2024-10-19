@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace AssetDanshari
 {
-	//[CreateAssetMenu (fileName = "AssetDanshariSetting", menuName = "AssetDanshari Setting", order = 1)]
+    //[CreateAssetMenu (fileName = "AssetDanshariSetting", menuName = "AssetDanshari Setting", order = 1)]
     public class AssetDanshariSetting : ScriptableObject
     {
 	    [Serializable]

@@ -7,19 +7,15 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixBusiness.Procedure;
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
 using HotfixAGameExample.Procedure;
 using UnityEngine;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIGameStopForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIGameStopForm : UIFixBaseForm
 	{
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);

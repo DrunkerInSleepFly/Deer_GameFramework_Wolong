@@ -7,7 +7,6 @@
 using UnityEngine;
 using UnityEditor;
 using System.IO;
-using System;
 
 
 [CanEditMultipleObjects, CustomEditor(typeof(DefaultAsset),false)]

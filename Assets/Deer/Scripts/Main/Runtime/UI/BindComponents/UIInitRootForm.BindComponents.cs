@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine;
-using UnityEngine.UI;
 
 namespace Main.Runtime.UI
 {
-	public partial class UIInitRootForm
+    public partial class UIInitRootForm
 	{
 		private RectTransform m_Trans_LaunchView;
 		private RectTransform m_Trans_LoadingForm;

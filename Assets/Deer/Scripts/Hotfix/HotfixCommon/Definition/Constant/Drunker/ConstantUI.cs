@@ -16,6 +16,7 @@ public static class HotfixICallTheShotsConstantUI
         {
             {EUIFormId.UIcForm, new  ConstantUI.UIFormInfo( ConstantUI.EUIFormType.SubForm,"ICallTheShots","UIcForm", ConstantUI.EUIGroupName.PopUI,true,true)},
             {EUIFormId.UIServerLodingForm, new  ConstantUI.UIFormInfo( ConstantUI.EUIFormType.SubForm,"ICallTheShots","UIServerLodingForm", ConstantUI.EUIGroupName.PopUI,true,true)},
+            {EUIFormId.UIFightForm, new ConstantUI.UIFormInfo(ConstantUI.EUIFormType.MainForm,"ICallTheShots","UIFightForm",ConstantUI.EUIGroupName.Background,false,true)},
             //{EUIFormId.UILoadingForm, new UIFormInfo(EUIFormType.MainForm,"BaseAssets","UILoadingForm",EUIGroupName.AnimationOn,false,true)},
             //{EUIFormId.UILoadingOneForm, new UIFormInfo(EUIFormType.MainForm,"BaseAssets","UILoadingOneForm",EUIGroupName.PopUI,false,true)},
             //{EUIFormId.UIMainMenuForm, new UIFormInfo(EUIFormType.MainForm,"BaseAssets","UIMainMenuForm",EUIGroupName.Background,false,true)},
@@ -62,7 +63,12 @@ public static class HotfixICallTheShotsConstantUI
         /// <summary>
         /// 提示框。 服务器Loding
         /// </summary>
-        UIServerLodingForm = 3
+        UIServerLodingForm = 3,
+        /// <summary>
+        /// 战斗场景 也是主场景
+        /// </summary>
+        UIFightForm = 4
+
     }
 }
 

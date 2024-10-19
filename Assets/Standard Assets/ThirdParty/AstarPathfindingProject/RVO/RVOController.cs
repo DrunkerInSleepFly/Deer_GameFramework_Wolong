@@ -1,42 +1,42 @@
 using UnityEngine;
-using System.Collections.Generic;
 using UnityEngine.Serialization;
 
-namespace Pathfinding.RVO {
-	using Pathfinding.Util;
+namespace Pathfinding.RVO
+{
+    using Pathfinding.Util;
 
-	/// <summary>
-	/// RVO Character Controller.
-	/// Similar to Unity's CharacterController. It handles movement calculations and takes other agents into account.
-	/// It does not handle movement itself, but allows the calling script to get the calculated velocity and
-	/// use that to move the object using a method it sees fit (for example using a CharacterController, using
-	/// transform.Translate or using a rigidbody).
-	///
-	/// <code>
-	/// public void Update () {
-	///     // Just some point far away
-	///     var targetPoint = transform.position + transform.forward * 100;
-	///
-	///     // Set the desired point to move towards using a desired speed of 10 and a max speed of 12
-	///     controller.SetTarget(targetPoint, 10, 12);
-	///
-	///     // Calculate how much to move during this frame
-	///     // This information is based on movement commands from earlier frames
-	///     // as local avoidance is calculated globally at regular intervals by the RVOSimulator component
-	///     var delta = controller.CalculateMovementDelta(transform.position, Time.deltaTime);
-	///     transform.position = transform.position + delta;
-	/// }
-	/// </code>
-	///
-	/// For documentation of many of the variables of this class: refer to the Pathfinding.RVO.IAgent interface.
-	///
-	/// Note: Requires a single RVOSimulator component in the scene
-	///
-	/// See: Pathfinding.RVO.IAgent
-	/// See: RVOSimulator
-	/// See: local-avoidance (view in online documentation for working links)
-	/// </summary>
-	[AddComponentMenu("Pathfinding/Local Avoidance/RVO Controller")]
+    /// <summary>
+    /// RVO Character Controller.
+    /// Similar to Unity's CharacterController. It handles movement calculations and takes other agents into account.
+    /// It does not handle movement itself, but allows the calling script to get the calculated velocity and
+    /// use that to move the object using a method it sees fit (for example using a CharacterController, using
+    /// transform.Translate or using a rigidbody).
+    ///
+    /// <code>
+    /// public void Update () {
+    ///     // Just some point far away
+    ///     var targetPoint = transform.position + transform.forward * 100;
+    ///
+    ///     // Set the desired point to move towards using a desired speed of 10 and a max speed of 12
+    ///     controller.SetTarget(targetPoint, 10, 12);
+    ///
+    ///     // Calculate how much to move during this frame
+    ///     // This information is based on movement commands from earlier frames
+    ///     // as local avoidance is calculated globally at regular intervals by the RVOSimulator component
+    ///     var delta = controller.CalculateMovementDelta(transform.position, Time.deltaTime);
+    ///     transform.position = transform.position + delta;
+    /// }
+    /// </code>
+    ///
+    /// For documentation of many of the variables of this class: refer to the Pathfinding.RVO.IAgent interface.
+    ///
+    /// Note: Requires a single RVOSimulator component in the scene
+    ///
+    /// See: Pathfinding.RVO.IAgent
+    /// See: RVOSimulator
+    /// See: local-avoidance (view in online documentation for working links)
+    /// </summary>
+    [AddComponentMenu("Pathfinding/Local Avoidance/RVO Controller")]
 	[HelpURL("http://arongranberg.com/astar/documentation/stable/class_pathfinding_1_1_r_v_o_1_1_r_v_o_controller.php")]
 	public class RVOController : VersionedMonoBehaviour {
 		[SerializeField][FormerlySerializedAs("radius")]

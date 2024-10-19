@@ -1,10 +1,9 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UILoadingOneForm
+    public partial class UILoadingOneForm
 	{
 		private Image m_Img_Rot;
 

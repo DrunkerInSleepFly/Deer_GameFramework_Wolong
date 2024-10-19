@@ -7,17 +7,12 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UISettingsForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UISettingsForm : UIFixBaseForm
 	{
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);

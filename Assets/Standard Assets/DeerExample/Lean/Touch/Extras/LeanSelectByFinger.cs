@@ -2,13 +2,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using Lean.Common;
-using FSA = UnityEngine.Serialization.FormerlySerializedAsAttribute;
 
 namespace Lean.Touch
 {
-	/// <summary>This component allows you to select LeanSelectable components.
-	/// To use it, you can call the SelectScreenPosition method from somewhere (e.g. the LeanFingerTap.OnTap event).</summary>
-	[HelpURL(LeanTouch.HelpUrlPrefix + "LeanSelectByFinger")]
+    /// <summary>This component allows you to select LeanSelectable components.
+    /// To use it, you can call the SelectScreenPosition method from somewhere (e.g. the LeanFingerTap.OnTap event).</summary>
+    [HelpURL(LeanTouch.HelpUrlPrefix + "LeanSelectByFinger")]
 	[AddComponentMenu(LeanTouch.ComponentPathPrefix + "Select By Finger")]
 	public class LeanSelectByFinger : LeanSelect
 	{
@@ -176,9 +175,9 @@ namespace Lean.Touch
 #if UNITY_EDITOR
 namespace Lean.Touch.Editor
 {
-	using TARGET = LeanSelectByFinger;
+    using TARGET = LeanSelectByFinger;
 
-	[UnityEditor.CanEditMultipleObjects]
+    [UnityEditor.CanEditMultipleObjects]
 	[UnityEditor.CustomEditor(typeof(TARGET))]
 	public class LeanSelectByFinger_Editor : Common.Editor.LeanSelect_Editor
 	{

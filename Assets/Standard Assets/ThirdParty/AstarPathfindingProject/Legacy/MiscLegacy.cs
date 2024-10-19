@@ -1,9 +1,9 @@
 using UnityEngine;
-using Pathfinding.Util;
 
-namespace Pathfinding {
-	// Obsolete methods in AIPath
-	public partial class AIPath {
+namespace Pathfinding
+{
+    // Obsolete methods in AIPath
+    public partial class AIPath {
 		/// <summary>
 		/// True if the end of the path has been reached.
 		/// Deprecated: When unifying the interfaces for different movement scripts, this property has been renamed to <see cref="reachedEndOfPath"/>

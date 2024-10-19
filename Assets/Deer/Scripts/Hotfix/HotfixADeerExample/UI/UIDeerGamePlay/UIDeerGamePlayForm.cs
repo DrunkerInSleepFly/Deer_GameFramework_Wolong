@@ -7,20 +7,16 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
 using HotfixBusiness.Procedure;
 using Main.Runtime.Procedure;
-using UnityEngine;
 using UnityGameFramework.Runtime;
 
 namespace HotfixADeerExample.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIDeerGamePlayForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIDeerGamePlayForm : UIFixBaseForm
 	{
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);

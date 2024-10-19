@@ -1,6 +1,5 @@
 using UnityEditor;
 using UnityEngine;
-using System;
 using qtools.qhierarchy.pdata;
 using System.Text;
 

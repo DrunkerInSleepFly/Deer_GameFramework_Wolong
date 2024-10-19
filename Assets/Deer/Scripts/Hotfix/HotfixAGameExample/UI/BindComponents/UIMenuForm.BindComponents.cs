@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIMenuForm
+    public partial class UIMenuForm
 	{
 		private UIButtonSuper m_Btn_Solo;
 		private UIButtonSuper m_Btn_Versus;

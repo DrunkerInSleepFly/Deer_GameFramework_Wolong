@@ -9,12 +9,11 @@
 
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
 
-namespace Main.Runtime 
+namespace Main.Runtime
 {
     /// <summary>
     /// Please modify the description.

@@ -1,9 +1,9 @@
 //#define ASTAR_DEBUGREPLAY
 using System.Collections.Generic;
-using UnityEngine;
 
-namespace Pathfinding.Voxels {
-	public partial class Voxelize {
+namespace Pathfinding.Voxels
+{
+    public partial class Voxelize {
 		public bool FloodRegion (int x, int z, int i, uint level, ushort r, ushort[] srcReg, ushort[] srcDist, Int3[] stack, int[] flags = null, bool[] closed = null) {
 			int area = voxelArea.areaTypes[i];
 

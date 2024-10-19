@@ -8,7 +8,6 @@
 // ===============================================
 
 using System;
-using System.Collections.Generic;
 using UGFExtensions.SpriteCollection;
 using UnityEngine;
 using UnityEngine.UI;

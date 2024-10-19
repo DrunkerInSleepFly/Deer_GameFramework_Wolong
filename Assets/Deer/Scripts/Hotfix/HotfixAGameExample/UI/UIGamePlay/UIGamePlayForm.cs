@@ -7,20 +7,16 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixBusiness.Procedure;
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
 using HotfixAGameExample.Procedure;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIGamePlayForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIGamePlayForm : UIFixBaseForm
 	{
 		ProcedureGamePlay m_Procedure;
 

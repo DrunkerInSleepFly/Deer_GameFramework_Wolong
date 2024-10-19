@@ -1,8 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
-using UnityEditor;
-using UnityEngine;
-
 namespace UGFExtensions.SpriteCollection
 {
 #if !ODIN_INSPECTOR

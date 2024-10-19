@@ -1,10 +1,9 @@
 ﻿using SuperScrollView;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIGameModeForm
+    public partial class UIGameModeForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private LoopListView2 m_HListS_GameModeListView;

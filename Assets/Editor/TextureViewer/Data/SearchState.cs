@@ -4,10 +4,7 @@
 ***********************************************************************************/
 namespace TextureTool
 {
-    using UnityEngine;
-    using System.Collections;
     using System;
-    using UnityEditor;
 
     [System.Serializable]
     internal class SearchState

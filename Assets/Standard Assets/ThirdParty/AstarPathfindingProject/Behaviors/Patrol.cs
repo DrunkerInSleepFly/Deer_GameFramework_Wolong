@@ -1,18 +1,18 @@
 using UnityEngine;
-using System.Collections;
 
-namespace Pathfinding {
-	/// <summary>
-	/// Simple patrol behavior.
-	/// This will set the destination on the agent so that it moves through the sequence of objects in the <see cref="targets"/> array.
-	/// Upon reaching a target it will wait for <see cref="delay"/> seconds.
-	///
-	/// See: <see cref="Pathfinding.AIDestinationSetter"/>
-	/// See: <see cref="Pathfinding.AIPath"/>
-	/// See: <see cref="Pathfinding.RichAI"/>
-	/// See: <see cref="Pathfinding.AILerp"/>
-	/// </summary>
-	[UniqueComponent(tag = "ai.destination")]
+namespace Pathfinding
+{
+    /// <summary>
+    /// Simple patrol behavior.
+    /// This will set the destination on the agent so that it moves through the sequence of objects in the <see cref="targets"/> array.
+    /// Upon reaching a target it will wait for <see cref="delay"/> seconds.
+    ///
+    /// See: <see cref="Pathfinding.AIDestinationSetter"/>
+    /// See: <see cref="Pathfinding.AIPath"/>
+    /// See: <see cref="Pathfinding.RichAI"/>
+    /// See: <see cref="Pathfinding.AILerp"/>
+    /// </summary>
+    [UniqueComponent(tag = "ai.destination")]
 	[HelpURL("http://arongranberg.com/astar/documentation/stable/class_pathfinding_1_1_patrol.php")]
 	public class Patrol : VersionedMonoBehaviour {
 		/// <summary>Target points to move to in order</summary>

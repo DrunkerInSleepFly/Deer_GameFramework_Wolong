@@ -1,10 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using GameFramework;
 using UnityEngine;
-using UnityEngine.Networking;
 
 
 public partial class FileDownloadManager:MonoBehaviour

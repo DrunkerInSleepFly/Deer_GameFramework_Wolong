@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 namespace Lean.Common
 {
-	/// <summary>This component allows you to load the specified scene when you manually call the <b>Load</b> method.</summary>
-	[HelpURL(LeanHelper.PlusHelpUrlPrefix + "LeanLoadScene")]
+    /// <summary>This component allows you to load the specified scene when you manually call the <b>Load</b> method.</summary>
+    [HelpURL(LeanHelper.PlusHelpUrlPrefix + "LeanLoadScene")]
 	[AddComponentMenu(LeanHelper.ComponentPathPrefix + "Load Scene")]
 	public class LeanLoadScene : MonoBehaviour
 	{
@@ -40,11 +40,10 @@ namespace Lean.Common
 #if UNITY_EDITOR
 namespace Lean.Common.Editor
 {
-	using UnityEditor;
-	using UnityEditor.SceneManagement;
-	using TARGET = LeanLoadScene;
+    using UnityEditor;
+    using TARGET = LeanLoadScene;
 
-	[UnityEditor.CanEditMultipleObjects]
+    [UnityEditor.CanEditMultipleObjects]
 	[UnityEditor.CustomEditor(typeof(TARGET))]
 	public class LeanLoadScene_Editor : LeanEditor
 	{

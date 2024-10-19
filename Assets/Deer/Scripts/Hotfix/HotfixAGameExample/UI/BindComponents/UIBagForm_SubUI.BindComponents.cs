@@ -1,10 +1,9 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIBagForm_SubUI
+    public partial class UIBagForm_SubUI
 	{
 		private RawImage m_RImg_test;
 

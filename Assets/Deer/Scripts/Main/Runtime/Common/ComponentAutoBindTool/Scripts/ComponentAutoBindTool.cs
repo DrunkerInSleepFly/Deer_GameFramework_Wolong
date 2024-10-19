@@ -1,7 +1,5 @@
-﻿using GameFramework;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 /// <summary>
 /// 组件自动绑定工具

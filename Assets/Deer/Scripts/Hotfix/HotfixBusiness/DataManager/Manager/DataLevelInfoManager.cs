@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace HotfixBusiness.DataUser
 {
     public class DataLevelInfoManager:Singleton<DataLevelInfoManager>,IUserInfoManager

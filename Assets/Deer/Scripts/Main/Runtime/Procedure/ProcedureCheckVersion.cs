@@ -12,7 +12,6 @@ using System.Collections.Generic;
 using GameFramework;
 using GameFramework.Event;
 using GameFramework.Resource;
-using Main.Runtime.UI;
 using System.IO;
 using UnityEngine;
 using UnityGameFramework.Runtime;

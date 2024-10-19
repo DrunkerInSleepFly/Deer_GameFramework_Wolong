@@ -7,7 +7,6 @@
 //版 本:0.1 
 // ===============================================
 
-using System.Runtime.InteropServices;
 /// <summary>
 /// 调用Ios原生
 /// </summary>

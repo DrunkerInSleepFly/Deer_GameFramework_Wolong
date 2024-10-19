@@ -1,7 +1,5 @@
-using Google.Protobuf.WellKnownTypes;
 using System;
-using System.Diagnostics;
-    public class DateTimeToolEx
+public class DateTimeToolEx
     {
 
         public static TimeSpan Subtract(DateTime a,DateTime b) { 

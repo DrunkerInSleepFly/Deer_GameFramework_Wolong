@@ -1,5 +1,4 @@
 ﻿using System;
-using BrunoMikoski.AnimationSequencer;
 using DG.Tweening;
 using UnityEngine;
 

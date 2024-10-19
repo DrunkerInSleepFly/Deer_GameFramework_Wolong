@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using System;
 using UnityEngine.UI;
 using Sirenix.OdinInspector;
-using HotfixFramework.Runtime;
 using TMPro;
 
 //NOTE! You should hava a Camera with "MainCamera" tag and a canvas with a Screen Space - Overlay mode to script works properly;

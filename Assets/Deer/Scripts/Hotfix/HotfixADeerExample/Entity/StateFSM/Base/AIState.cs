@@ -6,8 +6,6 @@
  * ChangeTime：2022-03-26 17-58-11
  * CreateVersion：0.1
  *  =============================================== */
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace HotfixBusiness.Entity

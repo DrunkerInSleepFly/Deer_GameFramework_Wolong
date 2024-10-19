@@ -6,9 +6,6 @@
 //修改时间 : 2021-07-10 16-33-01  
 //版 本 : 0.1 
 // ===============================================
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 public static class PrefsKey 
 {
     public const string EDITOR_LUA_IDE_PATH = "EDITOR_LUA_IDE_PATH";

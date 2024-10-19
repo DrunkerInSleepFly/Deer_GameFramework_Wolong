@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-    public class IDTool
+public class IDTool
     {
         //public static bool IsKey(int id) {
         //    if (id/100000000==6&&id% 100000000 == 8) {

@@ -1,6 +1,4 @@
-﻿using Deer;
-
-public static partial class AssetUtility
+﻿public static partial class AssetUtility
 {
     /// <summary>
     /// 特效质量等级

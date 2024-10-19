@@ -7,13 +7,12 @@
 //版 本:0.1 
 // ===============================================
 
-using Main.Runtime;
 namespace Main.Runtime.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIInitRootForm : UIBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIInitRootForm : UIBaseForm
 	{
 		private static UIInitRootForm instance;
 

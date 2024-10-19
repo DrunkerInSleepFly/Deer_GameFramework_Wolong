@@ -6,12 +6,8 @@
 //修改时间:2023-01-03 17-48-02
 //版 本:0.1 
 // ===============================================
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityGameFramework.Runtime;
 
-namespace Main.Runtime.UI 
+namespace Main.Runtime.UI
 {
     /// <summary>
     /// Please modify the description.

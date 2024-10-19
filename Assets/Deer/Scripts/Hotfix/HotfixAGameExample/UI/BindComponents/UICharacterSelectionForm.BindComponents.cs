@@ -1,11 +1,10 @@
 ﻿using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UICharacterSelectionForm
+    public partial class UICharacterSelectionForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private UIButtonSuper m_Btn_Garage;

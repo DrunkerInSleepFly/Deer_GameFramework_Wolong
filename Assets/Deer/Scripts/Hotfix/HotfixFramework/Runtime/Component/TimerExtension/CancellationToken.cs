@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using UGFExtensions.Timer;
 using UnityGameFramework.Runtime;
 
 namespace UGFExtensions

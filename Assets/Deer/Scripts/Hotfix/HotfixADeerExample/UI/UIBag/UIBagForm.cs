@@ -7,14 +7,9 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace HotfixBusiness.UI
 {
-	public struct classsssss
+    public struct classsssss
 	{
 		public string name;
 		public int count;

@@ -1,19 +1,19 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Pathfinding.Util;
-using Pathfinding.Serialization;
 using UnityEngine.Profiling;
 
-namespace Pathfinding {
-	/// <summary>
-	/// Helper for navmesh cut objects.
-	/// Responsible for keeping track of which navmesh cuts have moved and coordinating graph updates to account for those changes.
-	///
-	/// See: navmeshcutting (view in online documentation for working links)
-	/// See: <see cref="AstarPath.navmeshUpdates"/>
-	/// See: <see cref="Pathfinding.NavmeshBase.enableNavmeshCutting"/>
-	/// </summary>
-	[System.Serializable]
+namespace Pathfinding
+{
+    /// <summary>
+    /// Helper for navmesh cut objects.
+    /// Responsible for keeping track of which navmesh cuts have moved and coordinating graph updates to account for those changes.
+    ///
+    /// See: navmeshcutting (view in online documentation for working links)
+    /// See: <see cref="AstarPath.navmeshUpdates"/>
+    /// See: <see cref="Pathfinding.NavmeshBase.enableNavmeshCutting"/>
+    /// </summary>
+    [System.Serializable]
 	public class NavmeshUpdates {
 		/// <summary>
 		/// How often to check if an update needs to be done (real seconds between checks).

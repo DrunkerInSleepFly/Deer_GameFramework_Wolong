@@ -1,8 +1,8 @@
-namespace Pathfinding {
-	using Pathfinding.Util;
-	using UnityEngine;
+namespace Pathfinding
+{
+    using Pathfinding.Util;
 
-	public class NavmeshTile : INavmeshHolder {
+    public class NavmeshTile : INavmeshHolder {
 		/// <summary>Tile triangles</summary>
 		public int[] tris;
 

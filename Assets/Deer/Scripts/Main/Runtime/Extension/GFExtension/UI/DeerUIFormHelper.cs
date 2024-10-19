@@ -7,8 +7,6 @@
 //版 本:0.1 
 // ===============================================
 using GameFramework.UI;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 

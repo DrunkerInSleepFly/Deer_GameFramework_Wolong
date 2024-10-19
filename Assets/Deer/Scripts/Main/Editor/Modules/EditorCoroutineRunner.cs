@@ -9,10 +9,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEngine;
 namespace Deer.Editor
 {
-	public static class EditorCoroutineRunner
+    public static class EditorCoroutineRunner
 	{
 		private class EditorCoroutine : IEnumerator
 		{

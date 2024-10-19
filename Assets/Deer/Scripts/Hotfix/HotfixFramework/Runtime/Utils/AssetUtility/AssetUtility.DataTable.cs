@@ -12,7 +12,7 @@ public static partial class AssetUtility
     {
         public static string GetDataTableAsset(string assetName, bool fromBytes)
         {
-            return Utility.Text.Format("Assets/GameModule/AssetsHotfix/DataTables/{0}.{1}", assetName, fromBytes ? "bytes" : "txt");
+            return Utility.Text.Format("Assets/Deer/AssetsHotfix/ICallTheShots/DataTables/{0}.{1}", assetName, fromBytes ? "bytes" : "txt");
         }
     }
 }

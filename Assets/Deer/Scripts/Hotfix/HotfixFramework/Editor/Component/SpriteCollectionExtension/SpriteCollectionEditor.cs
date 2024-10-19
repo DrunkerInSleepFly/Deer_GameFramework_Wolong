@@ -1,12 +1,3 @@
-using System;
-using System.IO;
-using UnityEditor;
-using UnityEditor.U2D;
-using UnityEditorInternal;
-using UnityEngine;
-using UnityEngine.U2D;
-using Object = UnityEngine.Object;
-
 namespace UGFExtensions.SpriteCollection
 {
 #if !ODIN_INSPECTOR

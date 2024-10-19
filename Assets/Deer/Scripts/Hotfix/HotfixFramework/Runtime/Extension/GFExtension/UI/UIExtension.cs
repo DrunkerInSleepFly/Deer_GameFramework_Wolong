@@ -8,8 +8,6 @@
 // ===============================================
 
 using System;
-using cfg.Deer;
-using Deer;
 using GameFramework;
 using GameFramework.UI;
 using Main.Runtime;

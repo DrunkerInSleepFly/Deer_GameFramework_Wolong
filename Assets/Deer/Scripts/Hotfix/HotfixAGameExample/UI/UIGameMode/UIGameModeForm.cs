@@ -7,18 +7,15 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
 using SuperScrollView;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIGameModeForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIGameModeForm : UIFixBaseForm
     {
         List<UIGameModeItemDatat> m_GameModeDataList = null;
 

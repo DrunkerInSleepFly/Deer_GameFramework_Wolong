@@ -1,7 +1,4 @@
-﻿
-using GameFramework;
-
-public static partial class AssetUtility
+﻿public static partial class AssetUtility
 {
     public static class Sound
     {

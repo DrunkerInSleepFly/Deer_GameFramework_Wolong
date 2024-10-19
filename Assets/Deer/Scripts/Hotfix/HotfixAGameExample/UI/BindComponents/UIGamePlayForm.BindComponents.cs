@@ -1,10 +1,9 @@
 ﻿using Minimalist.Bar.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIGamePlayForm
+    public partial class UIGamePlayForm
 	{
 		private VariableJoystick m_VJoystick_Joystick;
 		private UIButtonSuper m_Btn_Stop;

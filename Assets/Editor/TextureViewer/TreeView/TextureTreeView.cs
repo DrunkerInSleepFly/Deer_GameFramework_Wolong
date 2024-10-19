@@ -9,7 +9,6 @@ namespace TextureTool
     using UnityEditor;
     using UnityEditor.IMGUI.Controls;
     using UnityEngine;
-    using System.Reflection;
 
     /** ********************************************************************************
      * @summary テクスチャツール用TreeView

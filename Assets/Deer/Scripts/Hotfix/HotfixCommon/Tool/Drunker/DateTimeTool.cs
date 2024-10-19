@@ -1,7 +1,6 @@
-using Google.Protobuf.WellKnownTypes;
 using System;
 
-    public class DateTimeTool
+public class DateTimeTool
     {
         static int lingshi_zone = -99;//只有测试指定时区时才不是-99
         /// <summary>

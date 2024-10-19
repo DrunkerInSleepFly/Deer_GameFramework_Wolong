@@ -1,10 +1,8 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using Pathfinding.RVO;
 
-namespace Pathfinding.Legacy {
-	[RequireComponent(typeof(Seeker))]
+namespace Pathfinding.Legacy
+{
+    [RequireComponent(typeof(Seeker))]
 	[AddComponentMenu("Pathfinding/Legacy/AI/Legacy RichAI (3D, for navmesh)")]
 	/// <summary>
 	/// Advanced AI for navmesh based graphs.

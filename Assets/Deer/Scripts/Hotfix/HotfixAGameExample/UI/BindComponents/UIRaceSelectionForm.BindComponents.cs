@@ -1,10 +1,9 @@
 ﻿using SuperScrollView;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIRaceSelectionForm
+    public partial class UIRaceSelectionForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private LoopListView2 m_HListS_RaceSelectListView;

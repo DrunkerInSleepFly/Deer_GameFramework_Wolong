@@ -1497,5 +1497,7 @@ namespace UnityGameFramework.Runtime
         {
             m_EventComponent.Fire(this, ResourceUpdateAllCompleteEventArgs.Create(e));
         }
+
+       
     }
 }

@@ -1,15 +1,15 @@
-using UnityEngine;
 using UnityEngine.Profiling;
 
-namespace Pathfinding {
-	using UnityEngine;
+namespace Pathfinding
+{
+    using UnityEngine;
 
-	/// <summary>
-	/// An item of work that can be executed when graphs are safe to update.
-	/// See: <see cref="AstarPath.UpdateGraphs"/>
-	/// See: <see cref="AstarPath.AddWorkItem"/>
-	/// </summary>
-	public struct AstarWorkItem {
+    /// <summary>
+    /// An item of work that can be executed when graphs are safe to update.
+    /// See: <see cref="AstarPath.UpdateGraphs"/>
+    /// See: <see cref="AstarPath.AddWorkItem"/>
+    /// </summary>
+    public struct AstarWorkItem {
 		/// <summary>
 		/// Init function.
 		/// May be null if no initialization is needed.

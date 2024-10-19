@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Kit.Physic
 {
-	public enum eCapsuleDirection
+    public enum eCapsuleDirection
 	{
 		XAxis = 0,
 		YAxis = 1,

@@ -7,15 +7,14 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
 using System.Collections.Generic;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UISettingGameOptionsForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UISettingGameOptionsForm : UIFixBaseForm
 	{
 		List<string> m_Languages = new List<string>()
 		{

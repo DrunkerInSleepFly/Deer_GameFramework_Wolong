@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-
-namespace CatJson
+﻿namespace CatJson
 {
     /// <summary>
     /// Json词法单元的类型

@@ -8,8 +8,6 @@
 // ===============================================
 using GameFramework;
 using GameFramework.ObjectPool;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 namespace HotfixFramework.Runtime
 {

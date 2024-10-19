@@ -2,7 +2,6 @@
 using System.IO;
 using HybridCLR.Editor;
 using UnityEditor;
-using UnityEngine;
 
 public static class AOTMetaAssembliesHelper
 {

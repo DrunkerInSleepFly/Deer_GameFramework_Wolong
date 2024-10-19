@@ -1,7 +1,7 @@
-using System;
-namespace Pathfinding.Util {
-	/// <summary>Calculates checksums of byte arrays</summary>
-	public class Checksum {
+namespace Pathfinding.Util
+{
+    /// <summary>Calculates checksums of byte arrays</summary>
+    public class Checksum {
 		/// <summary>
 		/// Calculate checksum for the byte array starting from a previous values.
 		/// Useful if data is split up between several byte arrays

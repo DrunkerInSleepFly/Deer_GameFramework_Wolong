@@ -6,13 +6,10 @@
 //修改时间:2022-06-05 19-21-08
 //版 本:0.1 
 // ===============================================
-using DG.Tweening;
-using GameFramework;
 using HotfixADeerExample.UI;
 using HotfixBusiness.Entity;
 using Main.Runtime.Procedure;
 using UnityEngine;
-using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 namespace HotfixADeerExample.Procedure
@@ -23,12 +20,6 @@ namespace HotfixADeerExample.Procedure
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
-            Animator xx = new Animator();
-            AnimatorClipInfo[] xxxx= xx.GetCurrentAnimatorClipInfo(-1);
-
-           
-
-
             m_UIFormSerialId = GameEntry.UI.OpenUIForm(ADeerConstantUI.GetUIFormInfo<UIDeerGamePlayForm>(),this);
 
             //ChangeState<ProcedureBattle>(procedureOwner);

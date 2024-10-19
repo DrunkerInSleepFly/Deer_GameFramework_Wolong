@@ -1,8 +1,5 @@
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 using qtools.qhierarchy.pdata;
 
 namespace qtools.qhierarchy.phelper

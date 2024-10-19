@@ -1,10 +1,9 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIGameSettleForm
+    public partial class UIGameSettleForm
 	{
 		private UIButtonSuper m_Btn_PlayAgain;
 		private UIButtonSuper m_Btn_PlayNext;

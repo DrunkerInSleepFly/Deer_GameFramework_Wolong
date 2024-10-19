@@ -1,8 +1,8 @@
-using UnityEngine;
 using UnityEditor;
 
-namespace Pathfinding {
-	[CustomEditor(typeof(NavmeshCut))]
+namespace Pathfinding
+{
+    [CustomEditor(typeof(NavmeshCut))]
 	[CanEditMultipleObjects]
 	public class NavmeshCutEditor : EditorBase {
 		protected override void Inspector () {

@@ -8,7 +8,6 @@
 // ===============================================
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 public delegate object RegistFunction(object pSender);
 public class MessengerManager

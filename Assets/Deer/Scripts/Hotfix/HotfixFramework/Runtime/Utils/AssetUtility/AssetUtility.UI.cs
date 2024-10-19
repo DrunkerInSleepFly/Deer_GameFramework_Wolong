@@ -1,5 +1,4 @@
-﻿using System;
-using GameFramework;
+﻿using GameFramework;
 
 /// <summary>
 /// 资源路径相关

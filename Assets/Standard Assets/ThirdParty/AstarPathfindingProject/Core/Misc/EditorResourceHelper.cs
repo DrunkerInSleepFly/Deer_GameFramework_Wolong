@@ -1,11 +1,11 @@
-namespace Pathfinding {
+namespace Pathfinding
+{
 #if UNITY_EDITOR
-	using UnityEditor;
-	using UnityEngine;
-	using System.Collections.Generic;
+    using UnityEngine;
+    using System.Collections.Generic;
 
-	/// <summary>Internal utility class for looking up editor resources</summary>
-	public static class EditorResourceHelper {
+    /// <summary>Internal utility class for looking up editor resources</summary>
+    public static class EditorResourceHelper {
 		/// <summary>
 		/// Path to the editor assets folder for the A* Pathfinding Project. If this path turns out to be incorrect, the script will try to find the correct path
 		/// See: LoadStyles

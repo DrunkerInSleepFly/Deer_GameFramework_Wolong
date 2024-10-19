@@ -143,6 +143,7 @@ namespace HotfixFramework.Runtime
 
             return nLoadSerial;
         }
+       
         public int LoadAssetAsyncWithOtherBundle(string strPath, string strShowName,Type assetType, LoadAssetObjectComplete loadAssetObjectComplete = null)
         {
             int nLoadSerial = GenSerialId();

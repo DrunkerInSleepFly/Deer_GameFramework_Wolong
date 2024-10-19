@@ -7,11 +7,9 @@
 //版 本:0.1 
 // ===============================================
 
-using System;
-using HotfixFramework.Runtime;
 using UnityEngine;
 
-namespace HotfixBusiness.UI 
+namespace HotfixBusiness.UI
 {
     /// <summary>
     /// Please modify the description.

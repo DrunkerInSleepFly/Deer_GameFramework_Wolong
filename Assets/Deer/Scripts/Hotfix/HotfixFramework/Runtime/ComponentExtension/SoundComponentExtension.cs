@@ -7,16 +7,12 @@
 //版 本 :0.1 
 // ===============================================
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using GameFramework;
 using GameFramework.Sound;
-using HotfixFramework.Runtime;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityGameFramework.Runtime;
-using Object = System.Object;
 using Utility = GameFramework.Utility;
 
 public static class SoundComponentExtension

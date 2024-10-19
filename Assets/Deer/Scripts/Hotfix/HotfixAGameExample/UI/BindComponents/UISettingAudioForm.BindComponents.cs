@@ -1,10 +1,9 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UISettingAudioForm
+    public partial class UISettingAudioForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private Slider m_Slider_MusicAudio;

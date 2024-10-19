@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace HotfixBusiness.Entity
 {
-	public class NPCFarData : EntityData
+    public class NPCFarData : EntityData
 	{
 		public float FireDuration = 1;
 		public string BulletName;

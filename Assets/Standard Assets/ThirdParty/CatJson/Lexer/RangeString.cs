@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEngine.Profiling;
 
 
 namespace CatJson

@@ -7,12 +7,10 @@
 //版 本:0.1 
 // ===============================================
 
-using System;
-using HotfixFramework.Runtime;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
-namespace HotfixBusiness.UI 
+namespace HotfixBusiness.UI
 {
     /// <summary>
     /// 内置子界面父类

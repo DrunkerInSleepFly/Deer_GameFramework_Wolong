@@ -9,12 +9,11 @@
 
 using HotfixADeerExample.Procedure;
 using HotfixBusiness.Procedure;
-using HotfixFramework.Runtime;
 using Main.Runtime;
 using Main.Runtime.Procedure;
 using UnityGameFramework.Runtime;
 
-namespace HotfixADeerExample.UI 
+namespace HotfixADeerExample.UI
 {
     /// <summary>
     /// Please modify the description.

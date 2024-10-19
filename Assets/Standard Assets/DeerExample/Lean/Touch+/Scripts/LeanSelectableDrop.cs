@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Lean.Common;
-using System.Collections.Generic;
 
 namespace Lean.Touch
 {
-	/// <summary>This script allows you to change the color of the SpriteRenderer attached to the current GameObject.</summary>
-	[HelpURL(LeanTouch.PlusHelpUrlPrefix + "LeanSelectableDrop")]
+    /// <summary>This script allows you to change the color of the SpriteRenderer attached to the current GameObject.</summary>
+    [HelpURL(LeanTouch.PlusHelpUrlPrefix + "LeanSelectableDrop")]
 	[AddComponentMenu(LeanTouch.ComponentPathPrefix + "Selectable Drop")]
 	public class LeanSelectableDrop : LeanSelectableByFingerBehaviour
 	{
@@ -73,9 +72,9 @@ namespace Lean.Touch
 #if UNITY_EDITOR
 namespace Lean.Touch.Editor
 {
-	using TARGET = LeanSelectableDrop;
+    using TARGET = LeanSelectableDrop;
 
-	[UnityEditor.CanEditMultipleObjects]
+    [UnityEditor.CanEditMultipleObjects]
 	[UnityEditor.CustomEditor(typeof(TARGET))]
 	public class LeanSelectableDrop_Editor : LeanEditor
 	{

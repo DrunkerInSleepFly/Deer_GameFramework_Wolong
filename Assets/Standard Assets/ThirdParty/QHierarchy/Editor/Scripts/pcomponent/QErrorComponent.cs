@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.Events;
 using qtools.qhierarchy.pcomponent.pbase;
-using qtools.qhierarchy.phierarchy;
 using qtools.qhierarchy.phelper;
 using qtools.qhierarchy.pdata;
 using System.Reflection;

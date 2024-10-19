@@ -1,6 +1,4 @@
 using Kit.Physic;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RaycastGizmosVisualizer_Demo : MonoBehaviour

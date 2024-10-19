@@ -1,16 +1,13 @@
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 using qtools.qhierarchy.pdata;
 using System;
 using qtools.qhierarchy.phelper;
-using qtools.qhierarchy.pcomponent;
 
 namespace qtools.qhierarchy.phierarchy
 {
-	public class QHierarchySettingsWindow : EditorWindow 
+    public class QHierarchySettingsWindow : EditorWindow 
 	{	
         // STATIC
 		[MenuItem ("Tools/QHierarchy/Settings")]	

@@ -1,11 +1,10 @@
 ﻿using UnityEditor;
-using UnityEngine.SceneManagement;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
 namespace UnityToolbarExtender.Examples
 {
-	[InitializeOnLoad]
+    [InitializeOnLoad]
 	public class SceneSwitchLeftButton
 	{
 		private static string SceneName1 = "DeerLauncher", SceneName2 = "TestCity";

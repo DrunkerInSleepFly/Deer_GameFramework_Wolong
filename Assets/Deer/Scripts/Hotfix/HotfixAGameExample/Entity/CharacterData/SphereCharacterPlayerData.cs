@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace HotfixBusiness.Entity
 {
     public class SphereCharacterPlayerData : EntityData

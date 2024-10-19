@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIBagForm
+    public partial class UIBagForm
 	{
 		private RectTransform m_Trans_imge;
 		private UIButtonSuper m_Btn_Test;

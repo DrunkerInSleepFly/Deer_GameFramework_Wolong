@@ -1,14 +1,11 @@
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
 using System.Collections.Generic;
-using qtools.qhierarchy.phierarchy;
 using qtools.qhierarchy.phelper;
-using System.Text;
 
 namespace qtools.qhierarchy.pdata
 {
-	public enum QSetting
+    public enum QSetting
 	{
 		TreeMapShow                                 = 0,
         TreeMapColor                                = 77,

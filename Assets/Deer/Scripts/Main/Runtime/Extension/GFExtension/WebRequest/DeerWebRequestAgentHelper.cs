@@ -8,15 +8,12 @@
 // ===============================================
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using CatJson;
 using GameFramework;
 using GameFramework.WebRequest;
-using UnityEngine;
 using UnityEngine.Networking;
 using UnityGameFramework.Runtime;
-using Utility = UnityEngine.Networking.Utility;
 
 /// <summary>
 /// Web请求

@@ -4,7 +4,6 @@
  * CreationTime：2022-03-18 18-50-30
  * CreateVersion：0.1
  *  =============================================== */
-using System;
 using UnityEngine;
 
 namespace HotfixBusiness.Entity

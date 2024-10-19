@@ -7,22 +7,18 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
 using Main.Runtime;
-using System.Collections;
-using System.Collections.Generic;
 using HotfixAGameExample.Procedure;
 using HotfixBusiness.Procedure;
 using Main.Runtime.Procedure;
-using UnityEngine;
 using UnityGameFramework.Runtime;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIMenuForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIMenuForm : UIFixBaseForm
 	{
 		public bool IsSolo;
 

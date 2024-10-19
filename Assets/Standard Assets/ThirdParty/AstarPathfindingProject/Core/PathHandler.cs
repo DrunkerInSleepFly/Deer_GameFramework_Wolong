@@ -1,17 +1,17 @@
 #define DECREASE_KEY
-using System.Collections.Generic;
 
-namespace Pathfinding {
-	/// <summary>
-	/// Stores temporary node data for a single pathfinding request.
-	/// Every node has one PathNode per thread used.
-	/// It stores e.g G score, H score and other temporary variables needed
-	/// for path calculation, but which are not part of the graph structure.
-	///
-	/// See: Pathfinding.PathHandler
-	/// See: https://en.wikipedia.org/wiki/A*_search_algorithm
-	/// </summary>
-	public class PathNode {
+namespace Pathfinding
+{
+    /// <summary>
+    /// Stores temporary node data for a single pathfinding request.
+    /// Every node has one PathNode per thread used.
+    /// It stores e.g G score, H score and other temporary variables needed
+    /// for path calculation, but which are not part of the graph structure.
+    ///
+    /// See: Pathfinding.PathHandler
+    /// See: https://en.wikipedia.org/wiki/A*_search_algorithm
+    /// </summary>
+    public class PathNode {
 		/// <summary>Reference to the actual graph node</summary>
 		public GraphNode node;
 

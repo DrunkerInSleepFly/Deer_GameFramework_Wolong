@@ -3,54 +3,54 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Profiling;
 
-namespace Pathfinding {
-	using Pathfinding.Voxels;
-	using Pathfinding.Serialization;
-	using Pathfinding.Recast;
-	using Pathfinding.Util;
-	using System.Threading;
+namespace Pathfinding
+{
+    using Pathfinding.Voxels;
+    using Pathfinding.Serialization;
+    using Pathfinding.Recast;
+    using Pathfinding.Util;
 
-	/// <summary>
-	/// Automatically generates navmesh graphs based on world geometry.
-	///
-	/// [Open online documentation to see images]
-	///
-	/// The recast graph is based on Recast (http://code.google.com/p/recastnavigation/).
-	/// I have translated a good portion of it to C# to run it natively in Unity.
-	///
-	/// [Open online documentation to see images]
-	///
-	/// \section howitworks How a recast graph works
-	/// When generating a recast graph what happens is that the world is voxelized.
-	/// You can think of this as constructing an approximation of the world out of lots of boxes.
-	/// If you have played Minecraft it looks very similar (but with smaller boxes).
-	/// [Open online documentation to see images]
-	///
-	/// The Recast process is described as follows:
-	/// - The voxel mold is build from the input triangle mesh by rasterizing the triangles into a multi-layer heightfield.
-	/// Some simple filters are then applied to the mold to prune out locations where the character would not be able to move.
-	/// - The walkable areas described by the mold are divided into simple overlayed 2D regions.
-	/// The resulting regions have only one non-overlapping contour, which simplifies the final step of the process tremendously.
-	/// - The navigation polygons are peeled off from the regions by first tracing the boundaries and then simplifying them.
-	/// The resulting polygons are finally converted to triangles which makes them perfect for pathfinding and spatial reasoning about the level.
-	///
-	/// The recast generation process usually works directly on the visiable geometry in the world. This is usually a good thing, because world geometry is usually more detailed than the colliders.
-	/// You can, however, specify that colliders should be rasterized instead. If you have very detailed world geometry, this can speed up scanning and updating the graph.
-	///
-	/// \section export Exporting for manual editing
-	/// In the editor there is a button for exporting the generated graph to a .obj file.
-	/// Usually the generation process is good enough for the game directly, but in some cases you might want to edit some minor details.
-	/// So you can export the graph to a .obj file, open it in your favourite 3D application, edit it, and export it to a mesh which Unity can import.
-	/// You can then use that mesh in a navmesh graph.
-	///
-	/// Since many 3D modelling programs use different axis systems (unity uses X=right, Y=up, Z=forward), it can be a bit tricky to get the rotation and scaling right.
-	/// For blender for example, what you have to do is to first import the mesh using the .obj importer. Don't change anything related to axes in the settings.
-	/// Then select the mesh, open the transform tab (usually the thin toolbar to the right of the 3D view) and set Scale -> Z to -1.
-	/// If you transform it using the S (scale) hotkey, it seems to set both Z and Y to -1 for some reason.
-	/// Then make the edits you need and export it as an .obj file to somewhere in the Unity project.
-	/// But this time, edit the setting named "Forward" to "Z forward" (not -Z as it is per default).
-	/// </summary>
-	[JsonOptIn]
+    /// <summary>
+    /// Automatically generates navmesh graphs based on world geometry.
+    ///
+    /// [Open online documentation to see images]
+    ///
+    /// The recast graph is based on Recast (http://code.google.com/p/recastnavigation/).
+    /// I have translated a good portion of it to C# to run it natively in Unity.
+    ///
+    /// [Open online documentation to see images]
+    ///
+    /// \section howitworks How a recast graph works
+    /// When generating a recast graph what happens is that the world is voxelized.
+    /// You can think of this as constructing an approximation of the world out of lots of boxes.
+    /// If you have played Minecraft it looks very similar (but with smaller boxes).
+    /// [Open online documentation to see images]
+    ///
+    /// The Recast process is described as follows:
+    /// - The voxel mold is build from the input triangle mesh by rasterizing the triangles into a multi-layer heightfield.
+    /// Some simple filters are then applied to the mold to prune out locations where the character would not be able to move.
+    /// - The walkable areas described by the mold are divided into simple overlayed 2D regions.
+    /// The resulting regions have only one non-overlapping contour, which simplifies the final step of the process tremendously.
+    /// - The navigation polygons are peeled off from the regions by first tracing the boundaries and then simplifying them.
+    /// The resulting polygons are finally converted to triangles which makes them perfect for pathfinding and spatial reasoning about the level.
+    ///
+    /// The recast generation process usually works directly on the visiable geometry in the world. This is usually a good thing, because world geometry is usually more detailed than the colliders.
+    /// You can, however, specify that colliders should be rasterized instead. If you have very detailed world geometry, this can speed up scanning and updating the graph.
+    ///
+    /// \section export Exporting for manual editing
+    /// In the editor there is a button for exporting the generated graph to a .obj file.
+    /// Usually the generation process is good enough for the game directly, but in some cases you might want to edit some minor details.
+    /// So you can export the graph to a .obj file, open it in your favourite 3D application, edit it, and export it to a mesh which Unity can import.
+    /// You can then use that mesh in a navmesh graph.
+    ///
+    /// Since many 3D modelling programs use different axis systems (unity uses X=right, Y=up, Z=forward), it can be a bit tricky to get the rotation and scaling right.
+    /// For blender for example, what you have to do is to first import the mesh using the .obj importer. Don't change anything related to axes in the settings.
+    /// Then select the mesh, open the transform tab (usually the thin toolbar to the right of the 3D view) and set Scale -> Z to -1.
+    /// If you transform it using the S (scale) hotkey, it seems to set both Z and Y to -1 for some reason.
+    /// Then make the edits you need and export it as an .obj file to somewhere in the Unity project.
+    /// But this time, edit the setting named "Forward" to "Z forward" (not -Z as it is per default).
+    /// </summary>
+    [JsonOptIn]
 	[Pathfinding.Util.Preserve]
 	public class RecastGraph : NavmeshBase, IUpdatableGraph {
 		[JsonMember]

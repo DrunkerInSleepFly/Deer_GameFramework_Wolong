@@ -1,14 +1,12 @@
 ﻿using UnityEngine;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
 namespace qtools.qhierarchy
-{	
-	[ExecuteInEditMode]
+{
+    [ExecuteInEditMode]
 	[AddComponentMenu("")]
 	public class QObjectList: MonoBehaviour, ISerializationCallbackReceiver
 	{

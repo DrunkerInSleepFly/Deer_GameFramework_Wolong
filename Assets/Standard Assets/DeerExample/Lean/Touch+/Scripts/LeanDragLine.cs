@@ -1,13 +1,12 @@
 using UnityEngine;
 using UnityEngine.Events;
-using Lean.Common;
 using FSA = UnityEngine.Serialization.FormerlySerializedAsAttribute;
 
 namespace Lean.Touch
 {
-	/// <summary>This component modifies LeanDragTrail to draw straight lines.
-	/// NOTE: This requires you to enable LeanTouch.RecordFingers.</summary>
-	[ExecuteInEditMode]
+    /// <summary>This component modifies LeanDragTrail to draw straight lines.
+    /// NOTE: This requires you to enable LeanTouch.RecordFingers.</summary>
+    [ExecuteInEditMode]
 	[HelpURL(LeanTouch.PlusHelpUrlPrefix + "LeanDragLine")]
 	[AddComponentMenu(LeanTouch.ComponentPathPrefix + "Drag Line")]
 	public class LeanDragLine : LeanDragTrail
@@ -159,9 +158,9 @@ namespace Lean.Touch
 #if UNITY_EDITOR
 namespace Lean.Touch.Editor
 {
-	using TARGET = LeanDragLine;
+    using TARGET = LeanDragLine;
 
-	[UnityEditor.CanEditMultipleObjects]
+    [UnityEditor.CanEditMultipleObjects]
 	[UnityEditor.CustomEditor(typeof(TARGET))]
 	public class LeanDragLine_Editor : LeanDragTrail_Editor
 	{

@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
-using System.Reflection;
 
-namespace Pathfinding {
-	[CustomEditor(typeof(AstarPath))]
+namespace Pathfinding
+{
+    [CustomEditor(typeof(AstarPath))]
 	public class AstarPathEditor : Editor {
 		/// <summary>List of all graph editors available (e.g GridGraphEditor)</summary>
 		static Dictionary<string, CustomGraphEditorAttribute> graphEditorTypes = new Dictionary<string, CustomGraphEditorAttribute>();

@@ -1,8 +1,8 @@
 using UnityEngine;
-using System.Collections;
 
-namespace Pathfinding.Util {
-	public static class MovementUtilities {
+namespace Pathfinding.Util
+{
+    public static class MovementUtilities {
 		/// <summary>
 		/// Clamps the velocity to the max speed and optionally the forwards direction.
 		///

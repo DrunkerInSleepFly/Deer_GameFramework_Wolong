@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEditor;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace qtools.qhierarchy.pdata
 {
-	public enum QTexture
+    public enum QTexture
 	{
 		QCheckBoxChecked = 0,
 		QCheckBoxUnchecked = 1,

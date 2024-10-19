@@ -3,7 +3,6 @@ using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding.Util;
-using Pathfinding.WindowsStore;
 
 #if ASTAR_NO_ZIP
 using Pathfinding.Serialization.Zip;
@@ -15,9 +14,10 @@ using ZipFile = System.IO.Compression.ZipArchive;
 using Pathfinding.Ionic.Zip;
 #endif
 
-namespace Pathfinding.Serialization {
-	/// <summary>Holds information passed to custom graph serializers</summary>
-	public class GraphSerializationContext {
+namespace Pathfinding.Serialization
+{
+    /// <summary>Holds information passed to custom graph serializers</summary>
+    public class GraphSerializationContext {
 		private readonly GraphNode[] id2NodeMapping;
 
 		/// <summary>

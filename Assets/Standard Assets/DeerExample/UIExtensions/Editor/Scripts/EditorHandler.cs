@@ -1,10 +1,9 @@
-using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using UnityEditor;
 using UnityEngine;
 
 namespace tackor
 {
-	public class EditorHandler : Editor
+    public class EditorHandler : Editor
 	{
 		public static int DrawTabs(int tabIndex, GUIContent[] tabs, GUISkin skin)
 		{

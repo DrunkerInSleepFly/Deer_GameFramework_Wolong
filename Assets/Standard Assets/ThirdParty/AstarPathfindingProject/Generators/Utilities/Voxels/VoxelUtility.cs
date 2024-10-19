@@ -1,11 +1,11 @@
-using UnityEngine;
 using System.Collections.Generic;
 
-namespace Pathfinding.Voxels {
-	using Pathfinding.Util;
+namespace Pathfinding.Voxels
+{
+    using Pathfinding.Util;
 
-	/// <summary>Various utilities for voxel rasterization.</summary>
-	public class Utility {
+    /// <summary>Various utilities for voxel rasterization.</summary>
+    public class Utility {
 		public static float Min (float a, float b, float c) {
 			a = a < b ? a : b;
 			return a < c ? a : c;

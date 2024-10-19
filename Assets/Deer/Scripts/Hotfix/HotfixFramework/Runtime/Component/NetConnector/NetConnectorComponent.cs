@@ -9,7 +9,6 @@
 using GameFramework;
 using GameFramework.Network;
 using System.Collections.Generic;
-using System.IO;
 using System.Net;
 using Deer;
 using Pb.Message;

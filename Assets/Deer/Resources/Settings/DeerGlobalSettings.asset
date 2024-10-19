@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: DeerGlobalSettings
   m_EditorClassIdentifier: 
   m_UseDeerExample: 0
-  m_ScriptAuthor: AlanDu
+  m_ScriptAuthor: Drunker
   m_ScriptVersion: 0.1
   m_Channel: halo_google
   m_UseServer: 1
   m_ServerUse: 1
-  m_LocalServerVersionPath: http://192.168.1.101:9621/api2/
+  m_LocalServerVersionPath: http://192.168.31.128:9621/api2/
   m_TestServerVersionPath: http://8.140.192.137:9621/api2/
   m_FormalServerVersionPath: http://8.140.192.137:9621/api2/
   m_AppStage: 0

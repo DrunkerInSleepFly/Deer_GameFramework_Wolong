@@ -2,11 +2,11 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Pathfinding {
-	using Pathfinding.RVO;
-	using Pathfinding.Util;
+namespace Pathfinding
+{
+    using Pathfinding.Util;
 
-	[AddComponentMenu("Pathfinding/AI/RichAI (3D, for navmesh)")]
+    [AddComponentMenu("Pathfinding/AI/RichAI (3D, for navmesh)")]
 	/// <summary>
 	/// Advanced AI for navmesh based graphs.
 	///

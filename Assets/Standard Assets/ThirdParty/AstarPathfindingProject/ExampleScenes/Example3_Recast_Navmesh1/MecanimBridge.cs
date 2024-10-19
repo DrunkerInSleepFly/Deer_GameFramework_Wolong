@@ -1,26 +1,25 @@
 using UnityEngine;
 
-namespace Pathfinding.Examples {
-	using Pathfinding.Util;
-
-	/// <summary>
-	/// Example of how to use Mecanim with the included movement scripts.
-	///
-	/// This script will use Mecanim to apply root motion to move the character
-	/// instead of allowing the movement script to do the movement.
-	///
-	/// It assumes that the Mecanim controller uses 3 input variables
-	/// - InputMagnitude which is simply 1 when the character should be moving and 0 when it should stop.
-	/// - X which is component of the desired movement direction along the left/right axis.
-	/// - Y which is component of the desired movement direction along the forward/backward axis.
-	///
-	/// It works with AIPath and RichAI.
-	///
-	/// See: <see cref="Pathfinding.IAstarAI"/>
-	/// See: <see cref="Pathfinding.AIPath"/>
-	/// See: <see cref="Pathfinding.RichAI"/>
-	/// </summary>
-	[HelpURL("http://arongranberg.com/astar/documentation/stable/class_pathfinding_1_1_examples_1_1_mecanim_bridge.php")]
+namespace Pathfinding.Examples
+{
+    /// <summary>
+    /// Example of how to use Mecanim with the included movement scripts.
+    ///
+    /// This script will use Mecanim to apply root motion to move the character
+    /// instead of allowing the movement script to do the movement.
+    ///
+    /// It assumes that the Mecanim controller uses 3 input variables
+    /// - InputMagnitude which is simply 1 when the character should be moving and 0 when it should stop.
+    /// - X which is component of the desired movement direction along the left/right axis.
+    /// - Y which is component of the desired movement direction along the forward/backward axis.
+    ///
+    /// It works with AIPath and RichAI.
+    ///
+    /// See: <see cref="Pathfinding.IAstarAI"/>
+    /// See: <see cref="Pathfinding.AIPath"/>
+    /// See: <see cref="Pathfinding.RichAI"/>
+    /// </summary>
+    [HelpURL("http://arongranberg.com/astar/documentation/stable/class_pathfinding_1_1_examples_1_1_mecanim_bridge.php")]
 	public class MecanimBridge : VersionedMonoBehaviour {
 		public float velocitySmoothing = 1;
 

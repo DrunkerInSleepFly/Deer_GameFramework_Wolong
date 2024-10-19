@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixADeerExample.UI
 {
-	public partial class UIDeerGamePlayForm
+    public partial class UIDeerGamePlayForm
 	{
 		private UIButtonSuper m_Btn_Play;
 		private UIButtonSuper m_Btn_Back;

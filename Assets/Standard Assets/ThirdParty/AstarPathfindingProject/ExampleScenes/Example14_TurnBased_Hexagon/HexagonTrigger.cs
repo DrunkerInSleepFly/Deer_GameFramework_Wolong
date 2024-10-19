@@ -1,10 +1,10 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 
-namespace Pathfinding.Examples {
-	/// <summary>Helper script in the example scene 'Turn Based'</summary>
-	[RequireComponent(typeof(Animator))]
+namespace Pathfinding.Examples
+{
+    /// <summary>Helper script in the example scene 'Turn Based'</summary>
+    [RequireComponent(typeof(Animator))]
 	[HelpURL("http://arongranberg.com/astar/documentation/stable/class_pathfinding_1_1_examples_1_1_hexagon_trigger.php")]
 	public class HexagonTrigger : MonoBehaviour {
 		public Button button;

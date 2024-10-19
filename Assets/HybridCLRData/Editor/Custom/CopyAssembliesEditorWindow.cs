@@ -1,6 +1,4 @@
 #if ENABLE_HYBRID_CLR_UNITY
-using System.Collections.Generic;
-using GameFramework;
 using UnityEngine;
 using UnityEditor;
 using UnityGameFramework.Editor.ResourceTools;

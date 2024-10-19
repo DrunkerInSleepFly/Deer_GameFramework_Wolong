@@ -1,12 +1,11 @@
-using UnityEngine;
-
-namespace Pathfinding {
-	/// <summary>
-	/// Base for all path modifiers.
-	/// See: MonoModifier
-	/// Modifier
-	/// </summary>
-	public interface IPathModifier {
+namespace Pathfinding
+{
+    /// <summary>
+    /// Base for all path modifiers.
+    /// See: MonoModifier
+    /// Modifier
+    /// </summary>
+    public interface IPathModifier {
 		int Order { get; }
 
 		void Apply(Path path);

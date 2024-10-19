@@ -1,18 +1,16 @@
-using System;
 using cfg.Deer;
 using HotfixBusiness.Procedure;
 using HotfixBusiness.UI;
-using HotfixFramework.Runtime;
 using Main.Runtime.Procedure;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 namespace HotfixAGameExample.Procedure
 {
-	/// <summary>
-	/// 例子菜单界面
-	/// </summary>
-	public class ProcedureGameMenu : ProcedureBase
+    /// <summary>
+    /// 例子菜单界面
+    /// </summary>
+    public class ProcedureGameMenu : ProcedureBase
 {
     private int m_UIFormSerialId;
 

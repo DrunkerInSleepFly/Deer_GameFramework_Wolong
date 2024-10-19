@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UISettingsForm
+    public partial class UISettingsForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private UIButtonSuper m_Btn_Inputs;

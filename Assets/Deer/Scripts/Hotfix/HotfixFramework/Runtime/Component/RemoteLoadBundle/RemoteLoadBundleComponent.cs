@@ -15,15 +15,13 @@ using GameFramework;
 using GameFramework.Event;
 using GameFramework.ObjectPool;
 using Main.Runtime;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityGameFramework.Runtime;
 using Object = UnityEngine.Object;
 
-namespace HotfixFramework.Runtime 
+namespace HotfixFramework.Runtime
 {
-	public class DownloadInfo
+    public class DownloadInfo
 	{
 		public string name;
 		public BundleDownInfo BundleDownInfo;

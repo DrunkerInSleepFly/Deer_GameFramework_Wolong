@@ -1,11 +1,10 @@
 ﻿using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UITipsForm
+    public partial class UITipsForm
 	{
 		private Image m_Img_bg;
 		private TextMeshProUGUI m_TxtM_Content;

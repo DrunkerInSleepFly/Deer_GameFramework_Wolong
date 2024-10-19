@@ -6,9 +6,6 @@
 //修改时间:2022-06-09 14-19-43
 //版 本:0.1 
 // ===============================================
-using Deer;
-using System.Collections;
-using System.Collections.Generic;
 using HotfixFramework.Runtime;
 using UnityEngine;
 
@@ -16,8 +13,8 @@ using UnityEngine;
 /// Please modify the description.
 /// </summary>
 public static class AssetObjectComponentExtension
-{
-	public static int LoadGameObject(this AssetObjectComponent assetObjectComponent, string strPath, string strShowName, LoadAssetObjectComplete loadAssetObjectComplete = null)
+{   
+    public static int LoadGameObject(this AssetObjectComponent assetObjectComponent, string strPath, string strShowName, LoadAssetObjectComplete loadAssetObjectComplete = null)
 	{
 		return assetObjectComponent.LoadAssetAsync(strPath, strShowName, typeof(GameObject), loadAssetObjectComplete);
 	}

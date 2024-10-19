@@ -1,11 +1,10 @@
 using UnityEngine;
-using Lean.Common;
 
 namespace Lean.Touch
 {
-	/// <summary>This component allows you to detect when the last finger stops touching the current UI element.
-	/// NOTE: This requires you to enable the RaycastTarget setting on your UI graphic.
-	[HelpURL(LeanTouch.PlusHelpUrlPrefix + "LeanLastUpCanvas")]
+    /// <summary>This component allows you to detect when the last finger stops touching the current UI element.
+    /// NOTE: This requires you to enable the RaycastTarget setting on your UI graphic.
+    [HelpURL(LeanTouch.PlusHelpUrlPrefix + "LeanLastUpCanvas")]
 	[AddComponentMenu(LeanTouch.ComponentPathPrefix + "Last Up Canvas")]
 	public class LeanLastUpCanvas : LeanLastUp
 	{
@@ -37,9 +36,9 @@ namespace Lean.Touch
 #if UNITY_EDITOR
 namespace Lean.Touch.Editor
 {
-	using TARGET = LeanLastUpCanvas;
+    using TARGET = LeanLastUpCanvas;
 
-	[UnityEditor.CanEditMultipleObjects]
+    [UnityEditor.CanEditMultipleObjects]
 	[UnityEditor.CustomEditor(typeof(TARGET))]
 	public class LeanLastUpCanvas_Editor : LeanLastUp_Editor
 	{

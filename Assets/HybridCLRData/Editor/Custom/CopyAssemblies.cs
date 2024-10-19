@@ -8,7 +8,6 @@ using UnityEngine;
 using UnityEditor;
 using HybridCLR.Editor;
 using HybridCLR.Editor.Commands;
-using Main.Runtime;
 
 /// <summary>
 /// 复制程序集文件

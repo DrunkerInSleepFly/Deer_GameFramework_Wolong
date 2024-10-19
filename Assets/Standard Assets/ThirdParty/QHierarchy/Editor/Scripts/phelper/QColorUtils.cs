@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEditor;
 
 namespace qtools.qhierarchy.phelper
 {

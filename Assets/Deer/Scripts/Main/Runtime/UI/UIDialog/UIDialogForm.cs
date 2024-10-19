@@ -7,17 +7,12 @@
 //版 本:0.1 
 // ===============================================
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace Main.Runtime.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIDialogForm : UIBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIDialogForm : UIBaseForm
 	{
 		private DialogParams m_DialogParams;
 		protected override void OnInit(object userData) {

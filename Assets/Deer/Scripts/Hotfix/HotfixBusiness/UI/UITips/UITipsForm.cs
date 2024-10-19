@@ -7,18 +7,15 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UITipsForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UITipsForm : UIFixBaseForm
 	{
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);

@@ -5,9 +5,7 @@ using System;
 using BindData = ComponentAutoBindTool.BindData;
 using System.Reflection;
 using System.IO;
-using UnityEditor.Callbacks;
 using System.Text;
-using GameFramework;
 
 [CustomEditor(typeof(ComponentAutoBindTool))]
 public class ComponentAutoBindToolInspector : Editor

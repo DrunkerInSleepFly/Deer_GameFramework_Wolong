@@ -1,5 +1,4 @@
-﻿using Deer;
-using GameFramework;
+﻿using GameFramework;
 using GameFramework.Resource;
 using UnityGameFramework.Runtime;
 

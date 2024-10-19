@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 namespace SuperScrollView
 {
-   
+
     [System.Serializable]
     public class GridViewItemPrefabConfData
     {

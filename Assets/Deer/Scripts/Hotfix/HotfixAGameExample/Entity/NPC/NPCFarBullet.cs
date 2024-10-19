@@ -1,14 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityGameFramework.Runtime;
 
 namespace HotfixBusiness.Entity
 {
-	/// <summary>
-	/// Զ��NPC���ӵ�
-	/// </summary>
-	public class NPCFarBullet : EntityLogicBase
+    /// <summary>
+    /// Զ��NPC���ӵ�
+    /// </summary>
+    public class NPCFarBullet : EntityLogicBase
 	{
 		NPCFarBulletData m_Data;
 		public NPCFarBulletData Data { get { return m_Data; } private set { m_Data = value; } }

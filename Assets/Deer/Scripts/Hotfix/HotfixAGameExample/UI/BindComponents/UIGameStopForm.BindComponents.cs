@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIGameStopForm
+    public partial class UIGameStopForm
 	{
 		private UIButtonSuper m_Btn_Resume;
 		private UIButtonSuper m_Btn_Restart;

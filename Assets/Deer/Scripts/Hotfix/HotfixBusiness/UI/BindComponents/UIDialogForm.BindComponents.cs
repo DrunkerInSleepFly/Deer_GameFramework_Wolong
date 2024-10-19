@@ -1,10 +1,9 @@
 ﻿using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UIDialogForm
+    public partial class UIDialogForm
 	{
 		private UIButtonSuper m_Btn_bg;
 		private TextMeshProUGUI m_TxtM_Content;

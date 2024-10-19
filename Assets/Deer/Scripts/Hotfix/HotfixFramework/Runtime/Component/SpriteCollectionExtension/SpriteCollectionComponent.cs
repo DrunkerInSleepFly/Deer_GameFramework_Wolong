@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using GameFramework;
 using GameFramework.ObjectPool;
@@ -6,8 +5,6 @@ using GameFramework.ObjectPool;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
 #endif
-using UGFExtensions.Await;
-using UGFExtensions.Timer;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 

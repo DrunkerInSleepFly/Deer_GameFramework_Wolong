@@ -1,15 +1,13 @@
 ﻿using HotfixBusiness.Entity;
 using System.Collections.Generic;
 using HotfixAGameExample.Procedure;
-using UnityEngine;
-using HotfixFramework.Runtime;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UICharacterSelectionForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UICharacterSelectionForm : UIFixBaseForm
 	{
 		int curSelectedCharacterIndex = 0;
 		int preEntityID = -1;

@@ -1,5 +1,4 @@
-﻿using Deer;
-using GameFramework;
+﻿using GameFramework;
 using GameFramework.Resource;
 using GameFramework.UI;
 using Main.Runtime;
@@ -181,7 +180,7 @@ public partial class GameEntry
     /// </summary>
     private static void InitComponentsSet()
     {
-
+        Utility.Json.SetJsonHelper(new NewtonsoftJsonHelper());
     }
     /// <summary>
     /// 加载自定义组件

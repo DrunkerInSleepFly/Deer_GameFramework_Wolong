@@ -1,10 +1,9 @@
 ﻿using tackor.UIExtension;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixBusiness.UI
 {
-	public partial class UISettingGameOptionsForm
+    public partial class UISettingGameOptionsForm
 	{
 		private UIButtonSuper m_Btn_Back;
 		private HorizontalSelector m_HSelector_LanguageSelector;

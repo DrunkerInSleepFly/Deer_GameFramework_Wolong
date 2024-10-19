@@ -25,7 +25,7 @@ MonoBehaviour:
     Assembly: HotfixADeerExample.dll
   - AssetGroupName: AGameExample
     Assembly: HotfixAGameExample.dll
-  - AssetGroupName: CallTheShots
+  - AssetGroupName: ICallTheShots
     Assembly: HotfixCallTheShots.dll
   AOTMetaAssemblies:
   - Assembly-CSharp-firstpass.dll

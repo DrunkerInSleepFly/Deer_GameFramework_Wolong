@@ -1,10 +1,9 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotfixADeerExample.UI
 {
-	public partial class UILoginForm
+    public partial class UILoginForm
 	{
 		private RawImage m_RImg_bg;
 		private UIButtonSuper m_Btn_Login;

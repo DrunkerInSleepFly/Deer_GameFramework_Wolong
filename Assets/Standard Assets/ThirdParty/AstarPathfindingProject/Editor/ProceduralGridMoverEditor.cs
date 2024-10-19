@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEditor;
-using System.Collections.Generic;
 
-namespace Pathfinding {
-	[CustomEditor(typeof(ProceduralGridMover))]
+namespace Pathfinding
+{
+    [CustomEditor(typeof(ProceduralGridMover))]
 	[CanEditMultipleObjects]
 	public class ProceduralGridMoverEditor : EditorBase {
 		GUIContent[] graphLabels = new GUIContent[32];

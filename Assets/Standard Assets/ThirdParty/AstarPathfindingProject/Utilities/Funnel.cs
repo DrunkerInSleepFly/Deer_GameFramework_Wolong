@@ -1,16 +1,16 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Pathfinding {
-	using Pathfinding.Util;
+namespace Pathfinding
+{
+    using Pathfinding.Util;
 
-	/// <summary>
-	/// Implements the funnel algorithm as well as various related methods.
-	/// See: http://digestingduck.blogspot.se/2010/03/simple-stupid-funnel-algorithm.html
-	/// See: FunnelModifier for the component that you can attach to objects to use the funnel algorithm.
-	/// </summary>
-	public class Funnel {
+    /// <summary>
+    /// Implements the funnel algorithm as well as various related methods.
+    /// See: http://digestingduck.blogspot.se/2010/03/simple-stupid-funnel-algorithm.html
+    /// See: FunnelModifier for the component that you can attach to objects to use the funnel algorithm.
+    /// </summary>
+    public class Funnel {
 		/// <summary>Funnel in which the path to the target will be</summary>
 		public struct FunnelPortals {
 			public List<Vector3> left;

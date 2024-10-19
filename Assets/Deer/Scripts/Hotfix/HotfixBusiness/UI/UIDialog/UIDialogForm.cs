@@ -7,15 +7,14 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
 using Main.Runtime;
 
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// Please modify the description.
-	/// </summary>
-	public partial class UIDialogForm : UIFixBaseForm
+    /// <summary>
+    /// Please modify the description.
+    /// </summary>
+    public partial class UIDialogForm : UIFixBaseForm
 	{
 		private DialogParams m_DialogParams;
 		protected override void OnInit(object userData) {

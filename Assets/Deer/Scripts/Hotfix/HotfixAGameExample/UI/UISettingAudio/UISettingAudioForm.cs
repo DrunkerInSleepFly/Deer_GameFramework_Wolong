@@ -7,17 +7,12 @@
 //版 本:0.1 
 // ===============================================
 
-using HotfixFramework.Runtime;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace HotfixBusiness.UI
 {
-	/// <summary>
-	/// 设置-音频设置 界面
-	/// </summary>
-	public partial class UISettingAudioForm : UIFixBaseForm
+    /// <summary>
+    /// 设置-音频设置 界面
+    /// </summary>
+    public partial class UISettingAudioForm : UIFixBaseForm
 	{
 		protected override void OnInit(object userData) {
 			 base.OnInit(userData);
