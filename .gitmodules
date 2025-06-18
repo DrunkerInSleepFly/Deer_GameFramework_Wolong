@@ -1,0 +1,6 @@
+[submodule "HotfixTensUp"]
+	path =  Assets/Deer/Scripts/Hotfix/HotfixTensUp
+	url = http://gitlab.drunker.cc/Drunker/TensUp.git
+[submodule "Assets/Deer/AssetsHotfix/TensUpRes"]
+	path = Assets/Deer/AssetsHotfix/TensUpRes
+	url = http://gitlab.drunker.cc/Drunker/TensUpRes.git
