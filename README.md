@@ -1,4 +1,10 @@
 # Deer_GameFramework_Wolong
+# version
+## TensUp
+### v1.01.01
+## TensUpRes
+### v1.01.01
+
 - 基于GameFramework框架衍生的一个wolong热更框架（以由之前的huatuo升级为HybridCLR；
 
 - 实现除GameFramework库底层代码以及更新流程逻辑层代码，其他流程及业务层代码全部热更；
